@@ -1,0 +1,255 @@
+body{
+    background-color:rgb(15, 15, 15);
+}
+/*navigation styling */
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: azure;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.navbar .logo span{
+    color: red;
+}
+.navbar .nav-list{
+    list-style-type: none;
+}
+.list{
+    top: 0;
+    right: 20px;
+    position: absolute;
+    margin-top: 30px;
+    
+}
+.list li a{
+    text-decoration: none;
+}  
+li{
+   display: inline;  
+   
+}
+ul li a {
+    
+    color:azure;
+    padding: 5px;
+    font-size: 25px;
+    margin-left: 10px;
+    
+  } 
+.list li a:hover {
+    background-color:red;
+    color: azure;
+    padding: 0;
+  }
+
+/*home styling*/
+.home{
+    
+   color: azure;
+}
+
+table td{
+    width:50%;
+}
+table{
+    margin-top:130px;
+}
+
+.home .home-content .text-1{
+    font-size: 27px;
+
+}
+.home .home-content .text-2{
+    font-size: 60px;
+    font-weight: 600;
+    
+    
+}
+.home .home-content .text-3 span{
+    color: red;
+}
+.home .home-button{
+    margin-top:20px;
+    padding:10px 20px;
+    font-weight:600;
+    font-size:20px;
+    color:azure;
+    background-color:red;
+    border-radius:12px;
+
+}
+.home .home-button:hover{
+    background-color: tomato;
+}
+.image{
+ border-radius: 50%;
+ margin-left: 200px;
+ }
+/* about me section */
+ #about-me-section{
+     margin-top:200px;
+     
+ }
+ #about-me-section h2{
+     color:azure;
+     font-weight:600;
+     font-size:35px;
+     text-align:center;
+ }
+ #about-me-section h2 span{
+     color:red;
+ }
+ #about-me-section p{
+     color:azure;
+     text-align:justify;
+     width:60%;
+     margin-left:280px;
+     font-size:20px;
+     
+ }
+ #about-me-section .about-me-button{
+    margin-top:20px;
+    margin-left: 600px;
+    padding:10px 20px;
+    font-weight:600;
+    font-size:20px;
+    color:azure;
+    background-color:red;
+    border-radius:12px;
+ }
+ #about-me-section .about-me-button:hover{
+     background-color: tomato;
+ }
+
+ /* skill section */
+ #skill-table{
+     margin-top: 50px;
+ }
+ #skill-section h2{
+     text-align: center;
+     color: azure;
+     margin-top: 130px;
+     font-size: 35px;
+ }
+ #skill-section span{
+     color: azure;
+ }
+ #skill-section .xyz{
+     color: red;
+ }
+ #skill-section table tr td{
+     color: azure;
+     text-align: justify;
+     font-size:20px;
+     
+ }
+ .navbar-nav .nav-item .nav-link{
+     float: right;
+ }
+ table tr td p{
+     width:80%;
+     margin-left: 10%;
+ }
+ .skill .scale {
+     right: 20px;
+     position: absolute;
+
+}
+/* contact section styling */
+#contact-me-section{
+    margin-top:200px;
+    
+}
+#contact-me-section h2{
+    color:azure;
+    font-weight:600;
+    font-size:35px;
+    text-align:center;
+}
+#contact-me-section h2 span{
+    color:red;
+}
+#contact-me-section p{
+    color:azure;
+    text-align:justify;
+    width:60%;
+    margin-left:280px;
+    font-size:20px;
+    
+}
+#contact-me-section .contact-me-button{
+   margin-top:20px;
+   margin-left: 600px;
+   padding:10px 20px;
+   font-weight:600;
+   font-size:20px;
+   color:azure;
+   background-color:red;
+   border-radius:12px;
+}
+#contact-me-section .contact-me-button:hover{
+    background-color: tomato;
+}
+
+/* Footer styling */
+#footer-section{
+    background-color:gray;
+    text-align: center;
+    padding: 15px 30px;
+    margin-top: 200px;
+    font-size:15px;
+    font-weight: 600;
+}
+#footer-section span{
+    color: white;
+}
+#footer-section span a{
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+}
+/* tutorial page styling */
+.tutorial-header{
+    color: azure;
+    text-align: center;
+    margin-top: 150px;
+}
+.tutorial-list {
+
+   margin-left: 500px;
+   margin-top: 20px;
+    
+    
+}
+.tutorial-list li a:hover{
+    color: red;
+}
+.tutorial-list li{
+   
+    display: block;
+    /* text-align: center; */
+}
+.tutorial-list li::before{
+    content: "\2022"; 
+    list-style-type: square;
+    color: azure;
+    font-weight: 800;
+    font-size: medium;
+
+}
+/* scroll styling */
+.scroll-up-button i{
+    font-size: 55px;
+    color:azure;
+    background-color: red;
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+}

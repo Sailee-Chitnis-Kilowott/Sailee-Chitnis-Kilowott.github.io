@@ -1,255 +1,155 @@
-body{
-    background-color:rgb(15, 15, 15);
+/* navigation styling */
+.navbar{
+    height: 65px;
+    width: 100%;
 }
-/*navigation styling */
-.navbar .logo{
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;
-    color: azure;
-    margin-left: 50px;
-    margin-top: 40px;
+.nav-bg{
+    background-color: #ef5d57;
 }
-
-.navbar .logo span{
-    color: red;
+.navbar-nav{
+    margin-left: 160px;
 }
-.navbar .nav-list{
-    list-style-type: none;
-}
-.list{
-    top: 0;
-    right: 20px;
-    position: absolute;
-    margin-top: 30px;
-    
-}
-.list li a{
-    text-decoration: none;
-}  
-li{
-   display: inline;  
-   
-}
-ul li a {
-    
-    color:azure;
-    padding: 5px;
+.nav-item .nav-anchor{
+    margin-left: 90px;
+    color:white;
     font-size: 25px;
-    margin-left: 10px;
-    
-  } 
-.list li a:hover {
-    background-color:red;
-    color: azure;
-    padding: 0;
-  }
-
-/*home styling*/
-.home{
-    
-   color: azure;
-}
-
-table td{
-    width:50%;
-}
-table{
-    margin-top:130px;
-}
-
-.home .home-content .text-1{
-    font-size: 27px;
 
 }
-.home .home-content .text-2{
-    font-size: 60px;
-    font-weight: 600;
-    
-    
+.nav-item .nav-anchor:hover{
+    text-decoration: underline;
 }
-.home .home-content .text-3 span{
-    color: red;
+.nav-item .nav-anchor:focus{
+    text-decoration: underline;
 }
-.home .home-button{
-    margin-top:20px;
-    padding:10px 20px;
-    font-weight:600;
-    font-size:20px;
-    color:azure;
-    background-color:red;
-    border-radius:12px;
+
+.row .col-3{
+height: 535px;
+background-color: white;
 
 }
-.home .home-button:hover{
-    background-color: tomato;
+.row .col-9{
+    background-color: lightgray;
 }
-.image{
- border-radius: 50%;
- margin-left: 200px;
- }
-/* about me section */
- #about-me-section{
-     margin-top:200px;
-     
- }
- #about-me-section h2{
-     color:azure;
-     font-weight:600;
-     font-size:35px;
-     text-align:center;
- }
- #about-me-section h2 span{
-     color:red;
- }
- #about-me-section p{
-     color:azure;
-     text-align:justify;
-     width:60%;
-     margin-left:280px;
-     font-size:20px;
-     
- }
- #about-me-section .about-me-button{
-    margin-top:20px;
+.row .col-3 li a{
+    font-size: 25px;
+    list-style: none;
+    color: darkgray;
+}
+#gravatar{
     margin-left: 600px;
-    padding:10px 20px;
-    font-weight:600;
-    font-size:20px;
-    color:azure;
-    background-color:red;
-    border-radius:12px;
- }
- #about-me-section .about-me-button:hover{
-     background-color: tomato;
- }
-
- /* skill section */
- #skill-table{
-     margin-top: 50px;
- }
- #skill-section h2{
-     text-align: center;
-     color: azure;
-     margin-top: 130px;
-     font-size: 35px;
- }
- #skill-section span{
-     color: azure;
- }
- #skill-section .xyz{
-     color: red;
- }
- #skill-section table tr td{
-     color: azure;
-     text-align: justify;
-     font-size:20px;
-     
- }
- .navbar-nav .nav-item .nav-link{
-     float: right;
- }
- table tr td p{
-     width:80%;
-     margin-left: 10%;
- }
- .skill .scale {
-     right: 20px;
-     position: absolute;
-
-}
-/* contact section styling */
-#contact-me-section{
-    margin-top:200px;
-    
-}
-#contact-me-section h2{
-    color:azure;
-    font-weight:600;
-    font-size:35px;
-    text-align:center;
-}
-#contact-me-section h2 span{
-    color:red;
-}
-#contact-me-section p{
-    color:azure;
-    text-align:justify;
-    width:60%;
-    margin-left:280px;
-    font-size:20px;
-    
-}
-#contact-me-section .contact-me-button{
-   margin-top:20px;
-   margin-left: 600px;
-   padding:10px 20px;
-   font-weight:600;
-   font-size:20px;
-   color:azure;
-   background-color:red;
-   border-radius:12px;
-}
-#contact-me-section .contact-me-button:hover{
-    background-color: tomato;
+    width: 50px;
+    height: 50px;
 }
 
-/* Footer styling */
-#footer-section{
-    background-color:gray;
-    text-align: center;
-    padding: 15px 30px;
-    margin-top: 200px;
-    font-size:15px;
-    font-weight: 600;
+/* myself.html */
+.row .col-4 .sailee-img{
+    width: 90%;
+    height: 100%;
+    border-radius: 50%;
 }
-#footer-section span{
-    color: white;
+
+.row .col-8 h5{
+    color: #ef5d57;
 }
-#footer-section span a{
-    color: red;
+.row .col-8 p{
+    text-align: justify;
+    color: rgb(112, 111, 111);
+}
+
+
+#unordered li .home-color{
+    font-size: 25px;
+    color: rgb(112, 111, 111);
+}
+
+#unordered li .home-color{
     text-decoration: none;
-    font-weight: 600;
 }
-/* tutorial page styling */
-.tutorial-header{
-    color: azure;
-    text-align: center;
-    margin-top: 150px;
+#unordered li{
+    list-style: none;
 }
-.tutorial-list {
+#unordered li .home-color:hover{
+    color: #ef5d57;
+}
 
-   margin-left: 500px;
-   margin-top: 20px;
-    
-    
+#unordered li .home-color:focus{
+    color: #ef5d57;
 }
-.tutorial-list li a:hover{
-    color: red;
+
+
+#link-unordered li{
+    list-style: none;
 }
-.tutorial-list li{
-   
-    display: block;
-    /* text-align: center; */
-}
-.tutorial-list li::before{
-    content: "\2022"; 
-    list-style-type: square;
-    color: azure;
-    font-weight: 800;
-    font-size: medium;
+#link-unordered li .link-color{
+    font-size: 25px;
+    color: rgb(112, 111, 111);
+    text-decoration: none;
 
 }
-/* scroll styling */
-.scroll-up-button i{
-    font-size: 55px;
-    color:azure;
-    background-color: red;
-    position: fixed;
-    height: 45px;
-    width: 42px;
-    right: 30px;
-    bottom: 10px;
-    text-align: center;
-    line-height: 45px;
+#link-unordered li .link-color:hover{
+    color: #ef5d57;
+}
+
+#link-unordered li .link-color:focus{
+    color: #ef5d57;
+}
+
+
+/* footer section */
+#footer-section{
+    width: 100%;
+    height: 60px;
+    background-color: #ef5d57;
+    color: white;
+    line-height: 55px;
+}
+
+/* my skills styling */
+#skill-heading{
+    color: #ef5d57;
+}
+
+#skill-div{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+#skill-div .skill-list li{
+    color: rgb(112, 111, 111);
+}
+
+/* interest styling */
+#interest-heading{
+    color: #ef5d57;
+}
+#interest-div{
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+#interest-div .interest-list li{
+    color: rgb(112, 111, 111);
+}
+/* link styling */
+#link-div{
+    margin-left: 150px;
+    margin-top: 100px;
+    font-size: 20px;
+
+}
+
+#link-div .link-list li{
+    color: rgb(112, 111, 111);
+}
+
+#tutorial-list li a{
+    text-decoration: underline;
+    list-style-type: disc;
+    color: rgb(112, 111, 111);
+    font-size: 25px;
+}
+#tutorial-list{
+    margin-top: 50px;
 }
